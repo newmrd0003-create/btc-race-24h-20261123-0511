@@ -16,13 +16,13 @@ only moves on slow, 45-minute momentum:
 
 - **Buy** the whole cash balance once the close is more than **0.2%** above
   the close 45 bars ago.
-- **Sell** everything when the 45-bar return turns worse than **−1.2%**, or
+- **Sell** everything when the 45-bar return turns worse than **−1.0%**, or
   the position falls **2%** under its cost, or the close drops **2.5%**
   under the peak since entry.
 
 On the published 24-hour dev window that is three trades and a net PnL of
-about **+$31** (buy-and-hold makes about +$32 on the same window, but
-carries no exit rule for a falling market). Max drawdown about 2.2%.
+about **+$32.34** (buy-and-hold makes about +$32 on the same window, but
+carries no exit rule for a falling market). Max drawdown about 2.0%.
 
 ## Run it
 
